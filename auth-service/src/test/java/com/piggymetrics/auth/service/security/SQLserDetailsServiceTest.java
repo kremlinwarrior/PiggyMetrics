@@ -16,10 +16,10 @@ import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.when;
 import static org.mockito.MockitoAnnotations.initMocks;
 
-public class MongoUserDetailsServiceTest {
+public class SQLserDetailsServiceTest {
 
 	@InjectMocks
-	private MongoUserDetailsService service;
+	private SQLserDetailsService service;
 
 	@Mock
 	private UserRepository repository;
